@@ -1,0 +1,84 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>ehaminian.gmail.com</groupId>
+  <artifactId>stream1</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>stream1</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.3</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.2</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+		<groupId>jdk.tools</groupId>
+		<artifactId>jdk.tools</artifactId>
+		<version>1.7.0_05</version>
+		<scope>system</scope>
+		<systemPath>C:\Program Files\Java\jdk1.8.0_181\lib\tools.jar</systemPath>
+	</dependency>
+    
+    
+    <dependency>
+	    <groupId>nz.ac.waikato.cms.moa</groupId>
+	    <artifactId>moa</artifactId>
+	    <version>2019.05.0</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.apache.samoa</groupId>
+	    <artifactId>samoa-api</artifactId>
+	    <version>0.4.0-incubating</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>jfree</groupId>
+	    <artifactId>jfreechart</artifactId>
+	    <version>1.0.13</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.apache.commons</groupId>
+	    <artifactId>commons-math3</artifactId>
+	    <version>3.2</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>gov.nist.math</groupId>
+	    <artifactId>jama</artifactId>
+	    <version>1.0.3</version>
+	</dependency>
+	<dependency>
+        <groupId>de.unknownreality</groupId>
+        <artifactId>dataframe</artifactId>
+        <version>0.7.6</version>
+    </dependency>
+  </dependencies>
+</project>
